@@ -1,5 +1,5 @@
 title: Konstantinos Chondralis
-description: Embedded Software Engineer & Microcontroller Enthusiast - Portfolio showcasing embedded systems projects and technical expertise
+description: Personal portfolio website
 author: Konstantinos Chondralis
 email: khondralis@gmail.com
 theme: jekyll-theme-minimal
@@ -10,20 +10,3 @@ baseurl: ""
 
 # Build settings
 markdown: kramdown
-highlighter: rouge
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-
-# Plugins
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
-
-# SEO
-seo:
-  type: Person
-  links:
-    - https://github.com/kostantinoss
-    - https://www.linkedin.com/in/konstantinos-chondralis

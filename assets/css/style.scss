@@ -1,0 +1,333 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Minimal Monochrome Style for Konstantinos Chondralis Portfolio */
+
+/* Import Google Fonts - Using a clean serif for headings and sans-serif for body */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
+
+/* Root variables - Monochrome palette */
+:root {
+  --primary-color: #000000;
+  --secondary-color: #000000;
+  --accent-color: #000000;
+  --text-primary: #000000;
+  --text-secondary: #000000;
+  --text-light: #000000;
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8f8f8;
+  --border-color: #e0e0e0;
+  --border-dark: #333333;
+  --shadow-subtle: 0 1px 3px rgba(0, 0, 0, 0.05);
+  --transition: all 0.2s ease;
+}
+
+/* Override body font */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.8;
+  color: var(--text-primary);
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/* Main wrapper adjustments */
+.wrapper {
+  section {
+    padding-bottom: 30px;
+  }
+}
+
+/* Enhanced header in sidebar */
+header {
+  h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    
+    a {
+      transition: var(--transition);
+      color: var(--primary-color);
+      
+      &:hover {
+        color: var(--accent-color);
+        text-decoration: none;
+      }
+    }
+  }
+  
+  p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #000000;
+    font-weight: 400;
+  }
+}
+
+/* Typography improvements */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.3px;
+}
+
+h2 {
+  font-size: 32px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--primary-color);
+  
+  &:first-of-type {
+    margin-top: 30px;
+  }
+}
+
+h3 {
+  font-size: 22px;
+  margin-top: 35px;
+  margin-bottom: 15px;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+/* Paragraph styling */
+p {
+  line-height: 1.8;
+  color: var(--text-secondary);
+  margin-bottom: 1.2em;
+  
+  &:first-of-type {
+    font-size: 17px;
+    line-height: 1.7;
+  }
+}
+
+/* Links styling - minimal and elegant */
+a {
+  color: var(--primary-color);
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 1px solid var(--border-color);
+  transition: var(--transition);
+  
+  &:hover {
+    border-bottom-color: var(--primary-color);
+    color: var(--primary-color);
+  }
+}
+
+/* Lists styling */
+ul {
+  li {
+    margin-bottom: 10px;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    
+    &::marker {
+      color: var(--text-light);
+    }
+  }
+}
+
+/* Strong/bold text */
+strong {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+/* Horizontal rules - elegant thin lines */
+hr {
+  border: none;
+  height: 1px;
+  background: var(--border-dark);
+  margin: 50px 0;
+  opacity: 0.25;
+}
+
+/* Project sections styling */
+section {
+  h3 + p {
+    font-style: italic;
+    color: var(--text-light);
+    margin-top: -10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+}
+
+/* Code styling - monochrome terminal look */
+code {
+  background: var(--bg-secondary);
+  padding: 3px 7px;
+  border-radius: 3px;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Courier New', monospace;
+  font-size: 0.9em;
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+  font-weight: 500;
+}
+
+pre {
+  background: var(--bg-secondary);
+  padding: 20px;
+  border-radius: 4px;
+  overflow-x: auto;
+  border: 1px solid var(--border-color);
+  
+  code {
+    background: none;
+    border: none;
+    padding: 0;
+    font-weight: 400;
+  }
+}
+
+/* Blockquotes - elegant pull quotes */
+blockquote {
+  font-style: italic;
+  color: var(--text-secondary);
+  border-left: 3px solid var(--primary-color);
+  padding-left: 25px;
+  margin: 35px 0;
+  font-size: 18px;
+  line-height: 1.7;
+  
+  p {
+    color: var(--text-secondary);
+  }
+}
+
+/* Footer styling */
+footer {
+  margin-top: 60px;
+  padding-top: 25px;
+  border-top: 1px solid var(--border-color);
+  
+  p {
+    font-size: 12px;
+    color: #000000;
+  }
+  
+  a {
+    border-bottom: none;
+    
+    &:hover {
+      border-bottom: 1px solid var(--primary-color);
+    }
+  }
+}
+
+/* Subtle entrance animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+section {
+  animation: fadeIn 0.4s ease-out;
+}
+
+/* Enhanced typography for specific sections */
+section > p:first-child {
+  margin-top: 0;
+}
+
+/* Contact section enhancement */
+p + ul {
+  margin-top: -10px;
+}
+
+/* Focus on readability - optimal line length */
+section {
+  max-width: 720px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 960px) {
+  body {
+    font-size: 15px;
+  }
+  
+  section {
+    margin-top: 20px;
+  }
+  
+  h2 {
+    font-size: 28px;
+  }
+  
+  h3 {
+    font-size: 20px;
+  }
+  
+  header h1 {
+    font-size: 28px;
+  }
+}
+
+/* Print styles - clean black and white */
+@media print {
+  * {
+    color: black !important;
+    background: white !important;
+  }
+  
+  header h1 a {
+    color: black !important;
+    border: none !important;
+  }
+  
+  a {
+    color: black !important;
+    text-decoration: underline !important;
+    border: none !important;
+  }
+  
+  hr {
+    background: black !important;
+    opacity: 1 !important;
+  }
+}
+
+/* Fine typography adjustments */
+h2, h3, h4 {
+  text-rendering: optimizeLegibility;
+}
+
+/* Elegant numbered lists */
+ol {
+  li {
+    margin-bottom: 10px;
+    color: var(--text-secondary);
+    line-height: 1.7;
+  }
+}
+
+/* Subtle focus states for accessibility */
+a:focus {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 2px;
+}
+
+/* Selection styling */
+::selection {
+  background: var(--primary-color);
+  color: white;
+}
+
+::-moz-selection {
+  background: var(--primary-color);
+  color: white;
+}
+
