@@ -2,7 +2,9 @@
 layout: default
 ---
 
-Hello. I'm Konstantinos, I am a software engineer based in Athens, Greece. These are some projects I developed to teach myself embedded systems, because when in uni, I took all the wrong courses.
+Hello.
+I'm Konstantinos. 
+I am a software engineer based in Athens, Greece. These are some projects I developed to teach myself embedded systems and other stuff, because when in uni, apparently, I took all the wrong courses.
 Cheers.
 
 
@@ -67,14 +69,19 @@ Under development...
 
 ## About Me
 
-I’m an embedded software enthusiast by night and a backend software developer during the day. My experience spans the entire software development lifecycle, from initial concept and design to implementation, testing, and maintenance.
+I’m a backend software engineer by day and an embedded systems enthusiast by night. My experience covers the entire software development lifecycle, from concept and design through implementation, testing, and ongoing maintenance.
 
-More often than not, I find myself missing the interaction and impact that my day job has with things in the real world (Yes, I am jealous of mechanical engineers). So for me, embedded is the ultimate intersection between the real world and software. Yes, you still write code, but I find the fact that the code lives and/or controls some item or object that lives in the real world hugely intriguing.
-
+More often than not, I find myself missing the interaction and impact that my day job has with things in the real world (yes, I am jealous of mechanical engineers). So for me, embedded systems is the ultimate intersection between the digital and physical worlds.
+You still write code, of course, but the fact that it runs on — and often controls — something that exists in the real world is hugely intriguing to me.
 
 **What drives me:**
 - Interesting problems in interesting fields (automotive, aerospace... etc.)
 - That one day my code will fly in space
+
+
+
+
+**📄 [Download My CV](/assets/cv/Konstantinos_Chondralis_CV.pdf)** (PDF)
 
 
 ## Get In Touch
