@@ -71,7 +71,7 @@ An interactive command-line interface for the STM32F401RE microcontroller, provi
 **Development Tools:**
 - STM32CubeIDE, CLion
 - Git version control
-- Cmake (familiar)
+- CMake (familiar)
 - CI/CD (GitHub Actions)
 
 
