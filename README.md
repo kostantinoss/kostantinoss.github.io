@@ -1,8 +1,8 @@
 # Konstantinos Chondralis - Portfolio Website
 
-This is my personal portfolio website showcasing my embedded systems projects and technical expertise.
+This is my personal portfolio website showcasing my projects and technical expertise.
 
-## 🚀 Features
+## Features
 
 - **Modern Design**: Clean, professional layout with responsive design
 - **Technical Focus**: Highlighting embedded systems and microcontroller projects
@@ -10,14 +10,14 @@ This is my personal portfolio website showcasing my embedded systems projects an
 - **Fast Loading**: Optimized CSS and minimal dependencies
 - **Mobile Friendly**: Responsive design that works on all devices
 
-## 🛠️ Built With
+## Built With
 
 - **Jekyll**: Static site generator
 - **GitHub Pages**: Hosting platform
 - **Custom CSS**: Modern styling with CSS Grid and Flexbox
 - **Markdown**: Easy content management
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── _config.yml          # Jekyll configuration
@@ -30,7 +30,7 @@ This is my personal portfolio website showcasing my embedded systems projects an
 └── README.md           # This file
 ```
 
-## 🎨 Customization
+## Customization
 
 The portfolio is easily customizable:
 
@@ -38,11 +38,11 @@ The portfolio is easily customizable:
 2. **Styling**: Modify `assets/css/style.css` for design changes
 3. **Configuration**: Update `_config.yml` for site settings
 
-## 🔗 Live Site
+## Live Site
 
 Visit the live portfolio at: [kostantinoss.github.io](https://kostantinoss.github.io)
 
-## 📞 Contact
+## Contact
 
 - **Email**: khondralis@gmail.com
 - **LinkedIn**: [konstantinos-chondralis](https://www.linkedin.com/in/konstantinos-chondralis)
