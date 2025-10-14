@@ -12,26 +12,34 @@ Cheers.
 
 ### SysTick Driver
 
-A precise timing implementation using the SysTick peripheral for ARM Cortex-M4 microcontrollers. This project demonstrates direct hardware register manipulation and efficient delay functions.
+A bare-metal STM32F401RE project demonstrating SysTick peripheral implementation for ARM Cortex-M4 microcontrollers. This educational project showcases direct hardware register manipulation without HAL drivers, focusing on learning the fundamentals of embedded systems timing.
 
-**Key Features:**
-- Precise millisecond and microsecond delay functions
-- Direct hardware register access for optimal performance
+*Key Features:*
+- **Bare-Metal Programming** - Pure C implementation without HAL drivers
+- **SysTick Peripheral** - Direct ARM Cortex-M4 SysTick register manipulation
+- **Educational Focus** - Learn about ARM Cortex-M4 processor timing fundamentals
+- **STM32F401RE Target** - Complete project structure with Core, Inc, and Startup files
 
-**Project Links:**
+
+*Project Links:*
 - [GitHub Repository](https://github.com/kostantinoss/SysTick_driver)
 - [Project Documentation](https://github.com/kostantinoss/SysTick_driver#readme)
 
 ### STM32 Debug Shell
 
-Under development...
+An interactive command-line interface for the STM32F401RE microcontroller, providing real-time system monitoring and hardware control over UART. This project demonstrates advanced embedded systems programming with a full-featured terminal interface.
 
-**Key Features:**
-    TODO
+*Key Features:*
+- **Interactive Terminal** - Full command-line interface over UART (115200 baud) with history navigation
+- **Two-Tier Debugging** - High-level `status` commands for quick checks, low-level `showreg` for raw register dumps
+- **System Monitoring** - Real-time clock frequencies, HAL version, device ID, and uptime
+- **Hardware Control** - GPIO manipulation, LED control, and peripheral status monitoring
+- **User-Friendly** - Command history, Ctrl+C interrupt, backspace support, and comprehensive help system
+- **Register Inspection** - Direct register reading with hex and binary representation for deep debugging
 
-**Project Links:**
-- [GitHub Repository] ...
-- [Project Documentation] ...
+*Project Links:*
+- [GitHub Repository](https://github.com/kostantinoss/STM32-Shell)
+- [Project Documentation](https://github.com/kostantinoss/STM32-Shell#readme)
 
 
 
@@ -89,7 +97,7 @@ You still write code, of course, but the fact that it runs on — and often cont
 Feel free to contact me for any tech (or not) related questions, or discussions 
 
 **Connect with me:**
-- **LinkedIn** https://www.linkedin.com/in/konstantinos-chondralis
+- **LinkedIn:** [https://www.linkedin.com/in/konstantinos-chondralis](https://www.linkedin.com/in/konstantinos-chondralis)
 - **Email:** khondralis@gmail.com, kchondralis@protonmail.com
 - **GitHub:** [@kostantinoss](https://github.com/kostantinoss)
 
