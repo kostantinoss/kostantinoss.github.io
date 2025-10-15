@@ -2,7 +2,7 @@ title: Konstantinos Chondralis
 description: Personal portfolio website
 author: Konstantinos Chondralis
 email: khondralis@gmail.com
-theme: jekyll-theme-minimal
+remote_theme: poole/hyde
 
 # Site settings
 url: "https://kostantinoss.github.io"
@@ -10,3 +10,16 @@ baseurl: ""
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
+
+# Hyde theme options
+hyde:
+  title: Konstantinos Chondralis
+  tagline: Software Engineer & Embedded Systems Enthusiast
+  description: >
+    Personal portfolio showcasing embedded systems projects, 
+    software development skills, and technical expertise.
+  version: 2.1.0
+  github:
+    repo: https://github.com/kostantinoss/kostantinoss.github.io
+    branch: main
