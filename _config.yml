@@ -2,7 +2,6 @@ title: Konstantinos Chondralis
 description: Personal portfolio website
 author: Konstantinos Chondralis
 email: khondralis@gmail.com
-remote_theme: poole/hyde
 
 # Site settings
 url: "https://kostantinoss.github.io"
@@ -11,10 +10,6 @@ baseurl: ""
 # Build settings
 markdown: kramdown
 highlighter: rouge
-
-# Plugins
-plugins:
-  - jekyll-remote-theme
 
 # Hyde theme options
 hyde:
