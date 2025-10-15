@@ -10,6 +10,24 @@ Cheers.
 
 ## Featured Projects
 
+### STM32F401 Interactive Shell
+
+A comprehensive debugging and monitoring shell for STM32F401 microcontrollers with UART interface, command history, and real-time peripheral monitoring. This advanced embedded systems project demonstrates sophisticated hardware interaction and debugging capabilities.
+
+*Key Features:*
+- **Interactive Terminal** - Full command-line interface over UART (115200 baud) with command history and arrow key navigation
+- **System Information** - Real-time display of MCU specs, clock frequencies, and HAL version
+- **Register Inspection** - Direct register dumps with hex and binary representation for GPIO, UART, and RCC peripherals
+- **Hardware Control** - LED control (on/off/toggle) and GPIO state monitoring
+- **Memory Efficient** - Only 2.1KB RAM usage (2.12% of 96KB) and 13KB Flash (2.48% of 512KB)
+- **Modular Architecture** - Clean separation of shell engine, UART driver, and GPIO driver components
+- **Interrupt-Driven** - Non-blocking UART communication with automatic error recovery
+- **Educational Focus** - Comprehensive documentation and build instructions for learning embedded systems
+
+*Project Links:*
+- [GitHub Repository](https://github.com/kostantinoss/STM32F401-Interactive-Shell)
+- [Project Documentation](https://github.com/kostantinoss/STM32F401-Interactive-Shell#readme)
+
 ### SysTick Driver
 
 A bare-metal STM32F401RE project demonstrating SysTick peripheral implementation for ARM Cortex-M4 microcontrollers. This educational project showcases direct hardware register manipulation without HAL drivers, focusing on learning the fundamentals of embedded systems timing.
@@ -24,22 +42,6 @@ A bare-metal STM32F401RE project demonstrating SysTick peripheral implementation
 *Project Links:*
 - [GitHub Repository](https://github.com/kostantinoss/SysTick_driver)
 - [Project Documentation](https://github.com/kostantinoss/SysTick_driver#readme)
-
-### STM32 Debug Shell
-
-An interactive command-line interface for the STM32F401RE microcontroller, providing real-time system monitoring and hardware control over UART. This project demonstrates advanced embedded systems programming with a full-featured terminal interface.
-
-*Key Features:*
-- **Interactive Terminal** - Full command-line interface over UART (115200 baud) with history navigation
-- **Two-Tier Debugging** - High-level `status` commands for quick checks, low-level `showreg` for raw register dumps
-- **System Monitoring** - Real-time clock frequencies, HAL version, device ID, and uptime
-- **Hardware Control** - GPIO manipulation, LED control, and peripheral status monitoring
-- **User-Friendly** - Command history, Ctrl+C interrupt, backspace support, and comprehensive help system
-- **Register Inspection** - Direct register reading with hex and binary representation for deep debugging
-
-*Project Links:*
-- [GitHub Repository](https://github.com/kostantinoss/STM32-Shell)
-- [Project Documentation](https://github.com/kostantinoss/STM32-Shell#readme)
 
 
 
