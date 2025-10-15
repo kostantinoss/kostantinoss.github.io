@@ -12,6 +12,10 @@ baseurl: ""
 markdown: kramdown
 highlighter: rouge
 
+# Plugins
+plugins:
+  - jekyll-remote-theme
+
 # Hyde theme options
 hyde:
   title: Konstantinos Chondralis
